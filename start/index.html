@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/mainstyle.css">
+    <link rel="icon" href="/assets/default.png">
+
+    <title>Home Page | IDK Riddle</title>
+
+</head>
+<body>
+
+    <h1>Riddle</h1>
+    <button class="play-button">Start Riddle</button>
+
+    <div class="info-text">
+        People who entered the site: <span id="entrance-count">0</span><br>
+        People who completed "IDK riddle": <span id="completion-count">0</span><br>
+        Fun fact: the completion percentage is: <span id="completion-percentage">0%</span><br>
+        "IDK riddle" has NaN levels
+    </div>
+
+    <audio id="myAudio" loop>
+        <source src="/assets/audio.mp3" type="audio/mp3">
+      </audio>
+
+    <script src="/scripts/mainscript.js"></script>
+    <script src="/scripts/generalscript.js"></script>
+    <script src="/server.js"></script>
+</body>
+</html>
